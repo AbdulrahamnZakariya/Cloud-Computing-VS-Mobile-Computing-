@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Computing and Mobile Computing</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f0f8ff, #87ceeb);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem;
+            background: #005f73;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        main {
+            padding: 2rem;
+            line-height: 1.8;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            border: 2px solid #005f73;
+            padding: 1.5rem;
+            border-radius: 10px;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            background: #e0f7fa;
+        }
+
+        .section h2 {
+            color: #00796b;
+            margin-bottom: 1rem;
+            cursor: pointer;
+        }
+
+        .section p {
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #003d5b;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloud Computing and Mobile Computing</h1>
+    </header>
+
+    <main>
+        <div class="section">
+            <h2>What is Cloud Computing?</h2>
+            <p>Cloud computing is a technology that allows users to access and store data and applications on remote servers over the internet rather than on local devices. It offers scalability, reliability, and cost efficiency.</p>
+            <p><strong>References:</strong> <a href="https://azure.microsoft.com" target="_blank">Microsoft Azure</a></p>
+        </div>
+
+        <div class="section">
+            <h2>What is Mobile Computing?</h2>
+            <p>Mobile computing enables users to access data and services while on the move using portable devices such as smartphones and tablets. It is characterized by mobility, wireless communication, and real-time access.</p>
+        </div>
+
+        <div class="section">
+            <h2>Key Differences</h2>
+            <p>Cloud computing focuses on centralized resources and services accessed over the internet, while mobile computing emphasizes mobility and real-time communication. However, these technologies often work together, with mobile devices leveraging cloud infrastructure to enhance functionality.</p>
+        </div>
+
+        <div class="section">
+            <h2>Cloud Computing Uses</h2>
+            <p>1. Data Storage: Storing large amounts of data securely (e.g., Google Drive, Dropbox).</p>
+            <p>2. Development & Testing: Building and testing applications without local setups.</p>
+            <p>3. Machine Learning: Processing big data and training AI models.</p>
+            <p>4. Hosting Services: Web and application hosting (e.g., AWS, Azure).</p>
+            <p>5. Disaster Recovery: Protecting and recovering data in emergencies.</p>
+        </div>
+
+        <div class="section">
+            <h2>Mobile Computing Uses</h2>
+            <p>1. Wireless Communication: Calls and messages over networks like 5G.</p>
+            <p>2. Remote Work: Accessing data and services while on the move.</p>
+            <p>3. GPS Services: Navigation and tracking (e.g., Google Maps).</p>
+            <p>4. E-Commerce: Buying and selling online (e.g., Amazon, eBay).</p>
+            <p>5. Mobile Banking: Managing accounts and transactions via apps.</p>
+            <p>6. Entertainment: Streaming and gaming (e.g., Netflix, PUBG).</p>
+        </div>
+
+        <div class="section">
+            <h2>Core Connection</h2>
+            <p>Cloud computing enhances mobile computing by providing infrastructure for mobile apps, ensuring seamless access to data and services.</p>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>Created by Abdullrahman Ali </p>
+    </footer>
+
+    <script>
+        // Adding interactivity
+        document.querySelectorAll('.section h2').forEach(title => {
+            title.addEventListener('mouseover', () => {
+                title.style.color = '#ff6f61';
+                title.style.textDecoration = 'underline';
+            });
+
+            title.addEventListener('mouseout', () => {
+                title.style.color = '#00796b';
+                title.style.textDecoration = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
